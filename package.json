@@ -1,7 +1,11 @@
 {
   "name": "etchost",
   "description": "Simple cli library to allow, fast allow/block of domains in /etc/hosts by adding, commenting and uncommenting [127.0.0.1 host] entries",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassvail/etchost.git > "
+  },
   "keywords": [
     "etc",
     "hosts",
