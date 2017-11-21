@@ -1,0 +1,29 @@
+{
+  "name": "etchost",
+  "description": "Simple cli library to allow, fast allow/block of domains in /etc/hosts by adding, commenting and uncommenting [127.0.0.1 host] entries",
+  "version": "1.0.0",
+  "keywords": [
+    "etc",
+    "hosts",
+    "host",
+    "add",
+    "allow",
+    "block"
+  ],
+  "main": "index.js",
+  "bin": "bin/cli.js",
+  "author": "cassvail",
+  "license": "MIT",
+  "scripts": {
+    "start": "./index.js",
+    "test": "mocha ./test/**/*.js",
+    "testw": "nodemon --exec \"mocha ./test/**/*.js || true\""
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "pify": "^3.0.0"
+  }
+}
